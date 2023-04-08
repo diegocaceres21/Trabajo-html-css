@@ -23,6 +23,7 @@ body{
     align-items: end;
     align-content: end;
     grid-column: 1 / 4;
+    /*position: fixe;*/
 }
 
 nav a{
@@ -76,6 +77,7 @@ nav a:hover{
 }
 .derecha{
     flex-basis: 15%;
+    
     /*background-color: rebeccapurple;*/
 }
 
@@ -167,6 +169,28 @@ nav a:hover{
     color: #000000;
 }
 
+.boton{
+    /*border: black solid 1px;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.715);
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    
+}
+.boton:hover{
+    background-color: rgba(175, 182, 182, 0.616);
+}
+.boton i{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(2, 2, 59);
+    vertical-align: middle;
+}
 @media screen and (max-width: 640px) {
     nav a{
         display: none;

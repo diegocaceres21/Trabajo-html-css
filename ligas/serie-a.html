@@ -15,7 +15,7 @@
   <body>
     <header>
       <nav class="barra">
-        <a class="inicio" href=".././index.html">
+        <a id="home" class="inicio" href=".././index.html">
           <i class="material-icons">home</i></a>
         <a class="active" href="./ligas/serie-a.html">Serie A</a>
         <a href="">La Liga</a>
@@ -23,11 +23,36 @@
       </nav>
       <div class="container">
             <aside class="izquierda">
-                
+              <section class="enlaces">
+                <h2>Menú</h2> 
+                <a href="#champions">UEFA Champions League</a>
+                <a href="#europa">UEFA Europa League</a>
+                <a href="#noticias">Noticias</a>
+                <a href="#equipos">Equipos</a>
+            </section>
+            <section class="enlaces">
+                <h2>Streaming</h2>
+                <a class="stream" target="_blank" href="https://www.starplus.com/es-419/login">
+                    <img src=".././imagenes/star+plus-logo.svg" alt="">
+                    <p>Star Plus</p>
+                </a>
+                <a class="stream" target="_blank" href="https://www.dazn.com/en-BO/home">
+                    <img src=".././imagenes/dazn-logo-2020.svg" alt="">
+                    <p>DAZN</p>
+                </a>
+                <a class="stream" target="_blank" href="https://www.directvgo.com/">
+                    <img src=".././imagenes/dgo-logo.svg" alt="">
+                    <p>DirecTV</p>
+                </a>
+                <a class="stream" target="_blank" href="https://www.espn.com.ar/watch/?redirected=true">
+                    <img src=".././imagenes/espn-logo.svg" alt="">
+                    <p>ESPN +</p>
+                </a>
+            </section>
             </aside>
             <main class="main-container">
                 <section class="feed">
-                    <h1>TABLA DE POSICIONES</h1>
+                    <h1>Tabla de Posiciones</h1>
                     <table class="posiciones">
                         <thead>
                           <tr>
@@ -42,8 +67,10 @@
                         </thead>
                         <tbody>
                           <tr class="">
-                            <td>
-                              Napoli
+                            <td class="team">
+                              <p class="posicion">1</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/PWRLYBJqlGrAAsKkUN6eng_48x48.png" alt="logo">
+                              <p>Napoli</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">23</td>
@@ -53,8 +80,10 @@
                             <td class="right">71</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Lazio
+                            <td class="team">
+                              <p class="posicion">2</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/jcKKlUVaNw3br9cIyOKmQA_48x48.png" alt="logo">
+                              <p>Lazio</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">16</td>
@@ -64,8 +93,10 @@
                             <td class="right">55</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Milan
+                            <td class="team">
+                              <p class="posicion">3</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/VoKsJ6RitaHGhsM62e6AXQ_48x48.png" alt="logo">
+                              <p>Milan</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">15</td>
@@ -75,8 +106,10 @@
                             <td class="right">51</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Inter
+                            <td class="team">
+                              <p class="posicion">4</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/l2-icwsMhIvsbRw8AwC1yg_48x48.png" alt="logo">
+                              <p>Inter</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">16</td>
@@ -86,8 +119,10 @@
                             <td class="right">50</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Roma
+                            <td class="team">
+                              <p class="posicion">5</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/BQdP4jUBFJfG7U_JBsFIMg_48x48.png" alt="logo">
+                              <p>Roma</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">15</td>
@@ -97,8 +132,10 @@
                             <td class="right">50</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Atalanta
+                            <td class="team">
+                              <p class="posicion">6</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/0XmrZHobvb6ua5tgMOnTEA_48x48.png" alt="logo">
+                              <p>Atalanta</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">14</td>
@@ -108,8 +145,10 @@
                             <td class="right">48</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Juventus
+                            <td class="team">
+                              <p class="posicion">7</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Lv6xmBlUIpN3GAFhtf6nqQ_48x48.png" alt="logo">
+                              <p>Juventus</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">18</td>
@@ -119,8 +158,10 @@
                             <td class="right">44</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Bologna
+                            <td class="team">
+                              <p class="posicion">8</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/WnKdNmw06v2lz7HjhqPRPw_48x48.png" alt="logo">
+                              <p>Bologna</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">11</td>
@@ -130,8 +171,10 @@
                             <td class="right">40</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Fiorentina
+                            <td class="team">
+                              <p class="posicion">9</p>  
+                              <img src="https://logodownload.org/wp-content/uploads/2020/10/fiorentina-logo-0.png" alt="logo">
+                              <p>Fiorentina</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">11</td>
@@ -141,8 +184,10 @@
                             <td class="right">40</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Torino
+                            <td class="team">
+                              <p class="posicion">10</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/ovE3HSEx4GWXkW8GU7KVhA_48x48.png" alt="logo">
+                              <p>Torino</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">10</td>
@@ -152,8 +197,10 @@
                             <td class="right">38</td>
                           </tr>
                           <tr class="">
-                            <td>
-                             Udinese
+                            <td class="team">
+                              <p class="posicion">11</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/92Aw_iasBENKmzvdpbTpHQ_48x48.png" alt="logo">
+                              <p>Udinese</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">9</td>
@@ -163,8 +210,10 @@
                             <td class="right">38</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Sassuolo
+                            <td class="team">
+                              <p class="posicion">12</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/GoeTFIVAZLA5JWk0-A6B0A_48x48.png" alt="logo">
+                              <p>Sassuolo</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">10</td>
@@ -174,8 +223,10 @@
                             <td class="right">37</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Monza
+                            <td class="team">
+                              <p class="posicion">13</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/g2S0HUWrWZX9hwKC87W11Q_48x48.png" alt="logo">
+                              <p>Monza</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">9</td>
@@ -185,8 +236,10 @@
                             <td class="right">34</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Empoli
+                            <td class="team">
+                              <p class="posicion">14</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/vyezOynQ97AOBHEaClxZrg_48x48.png" alt="logo">
+                              <p>Empoli</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">7</td>
@@ -196,8 +249,10 @@
                             <td class="right">31</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Salernitana
+                            <td class="team">
+                              <p class="posicion">15</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/E5wkv8G7RBA2I0VsSq7Y1A_48x48.png" alt="logo">
+                              <p>Salernitana</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">6</td>
@@ -207,8 +262,10 @@
                             <td class="right">28</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Lecce
+                            <td class="team">
+                              <p class="posicion">16</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/tIaC5FB7Gm8CIULc77qMjg_48x48.png" alt="logo">
+                              <p>Lecce</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">6</td>
@@ -218,8 +275,10 @@
                             <td class="right">27</td>
                           </tr>
                           <tr class="">
-                            <td>
-                             Spezia
+                            <td class="team">
+                              <p class="posicion">17</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/UzdHN3YGjZDZGfSMQuZrYw_48x48.png" alt="logo">
+                              <p>Spezia</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">5</td>
@@ -229,8 +288,10 @@
                             <td class="right">25</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Hellas Verona
+                            <td class="team">
+                              <p class="posicion">18</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Y23PEIJgTvK3Qpm9il1MGA_48x48.png" alt="logo">
+                              <p>Hellas Verona</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">4</td>
@@ -240,8 +301,10 @@
                             <td class="right">19</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Sampdoria
+                            <td class="team">
+                              <p class="posicion">19</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/E8bC8MBR8FwSP3ONEhMxjw_48x48.png" alt="logo">
+                              <p>Sampdoria</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">3</td>
@@ -251,8 +314,10 @@
                             <td class="right">15</td>
                           </tr>
                           <tr class="">
-                            <td>
-                              Cremonese
+                            <td class="team">
+                              <p class="posicion">20</p>  
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/DE7-gNIPSRkzKx4FKSwxOw_48x48.png" alt="logo">
+                              <p>Cremonese</p>
                             </td>
                             <td class="right">28</td>
                             <td class="right">1</td>
@@ -272,7 +337,7 @@
                 </section>
             </main>
             <aside class="derecha">
-                
+              <a class="boton" href="#home"> <i class="material-icons">keyboard_arrow_up</i></a>
             </aside>
       </div>
       

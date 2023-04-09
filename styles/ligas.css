@@ -38,3 +38,47 @@ td img{
     text-align: center;
     margin: 0px 5px;
 }
+.partidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.juego{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.715);
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    width: 50%;
+    min-width: 300px;
+}
+.horario{
+    margin: 0px 35px;
+    /*flex-grow: 1;*/
+    flex-basis: 40%;
+}
+.horario p{
+    text-align: center;
+    width: 100%;
+}
+.equipos{
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.715);*/
+    flex-basis: 60%;
+    border-right: solid rgba(0, 0, 0, 0.247) 2px;
+    padding-right: 30px;
+}
+.equipo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 5px;
+    
+}
+.equipo p{
+    margin-left: 8px;
+}
+.equipo img{
+    width: 30px;
+}

@@ -68,6 +68,7 @@ td img{
     flex-basis: 60%;
     border-right: solid rgba(0, 0, 0, 0.247) 2px;
     padding-right: 30px;
+    padding-left: 10px;
 }
 .equipo{
     display: flex;

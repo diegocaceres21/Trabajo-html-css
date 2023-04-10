@@ -428,9 +428,86 @@
                       </div>
                     </article>
                 </section>
-               <!-- <section class="feed">
-                    <h1>NOTICIAS</h1>
-                </section>-->
+                <section class="feed">
+                    <h1>MÁXIMOS GOLEADORES</h1>
+                    <article class="goles">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>Goles</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="jugador">
+                              <p>1</p>
+                              <img src="data:image/jpeg;base64,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" alt="foto">
+                              <p class="nombre">Robert Lewandowski</p>
+                            </td>
+                            <td>
+                              <div class="club"> 
+                                <img src="https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_48x48.png" alt="logo">
+                                <p>Barcelona</p>
+                              </div>
+                            </td>
+                            <td class="cantidad">
+                              <p>17</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="jugador">
+                              <p>2</p>
+                              <img src="data:image/jpeg;base64,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" alt="foto">
+                              <p class="nombre">Karim Benzema</p>
+                            </td>
+                            <td>
+                              <div class="club"> 
+                                <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_48x48.png" alt="logo">
+                                <p>Real Madrid</p>
+                              </div>
+                            </td>
+                            <td class="cantidad">
+                              <p>14</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="jugador">
+                              <p>3</p>
+                              <img src="data:image/jpeg;base64,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" alt="foto">
+                              <p class="nombre">Enes Unal</p>
+                            </td>
+                            <td>
+                              <div class="club"> 
+                                <img src="https://ssl.gstatic.com/onebox/media/sports/logos/1UDHZMdKZD15W5gus7dJyg_48x48.png" alt="logo">
+                                <p>Getafe</p>
+                              </div>
+                            </td>
+                            <td class="cantidad">
+                              <p>13</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!--<div class="fila">
+                        <div class="jugador">
+                          <p>1</p>
+                          <img src="data:image/jpeg;base64,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" alt="foto">
+                          <div class="datos">
+                            <p class="nombre">Robert Lewandowski</p>
+                            <div class="equipo">
+                              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_48x48.png" alt="logo">
+                              <p>Barcelona</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cantidad">
+                          <p>17</p> 
+                        </div>
+                      </div>--> 
+                    </article>
+                </section>
             </main>
             <aside class="derecha">
               <a class="boton" href="#home"> <i class="material-icons">keyboard_arrow_up</i></a>

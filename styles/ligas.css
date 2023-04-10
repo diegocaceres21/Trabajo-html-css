@@ -83,3 +83,60 @@ td img{
 .equipo img{
     width: 30px;
 }
+.goles{
+    display: flex;
+    flex-direction: column;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+}
+.jugador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.jugador > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.jugador > p{
+    padding: 0px 10px;
+}
+.datos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.datos img{
+    width: 40px;
+    height: 40px;
+}
+/*.cantidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}*/
+.nombre{
+    padding: 0px 15px;
+}
+.cantidad{
+    text-align: center;
+}
+.club{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.club > p{
+    display: inline;
+}
+.club > img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}

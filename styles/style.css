@@ -193,7 +193,8 @@ nav a:hover{
 }
 @media screen and (max-width: 640px) {
     nav a{
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
     .main-container{
         flex-basis: 90%;

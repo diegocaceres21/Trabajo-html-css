@@ -191,6 +191,19 @@ nav a:hover{
     color: rgb(2, 2, 59);
     vertical-align: middle;
 }
+footer{
+    background-color: rgb(2, 2, 59);
+    margin: 0px ;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*position: fixe;*/
+}
+footer p{
+    color: white;
+}
 @media screen and (max-width: 640px) {
     nav a{
         display: flex;
